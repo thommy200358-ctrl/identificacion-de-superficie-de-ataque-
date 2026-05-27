@@ -2,14 +2,14 @@
 
 ## Windows
 
-Get-Service
-netstat
-tasklist
-net user
+Get-Service,
+netstat,
+tasklist,
+net user,
 
 ## Linux
 
-systemctl
-ss
-cat
-getent
+systemctl,
+ss,
+cat,
+getent,
