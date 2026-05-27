@@ -26,6 +26,7 @@ Hardening assessment
 2. Uncontrolled Ports
 3. Excessive Privileged Users
 
+
 # Commands Used
 
 ## Windows
