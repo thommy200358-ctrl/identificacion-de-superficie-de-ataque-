@@ -31,14 +31,17 @@ Hardening assessment
 
 ## Windows
 
-Get-Service
-netstat
-tasklist
+
+Get-Service,
+netstat,
+tasklist,
 net user
+
 
 ## Linux
 
-systemctl
-ss
-cat
+
+systemctl,
+ss,
+cat,
 getent
