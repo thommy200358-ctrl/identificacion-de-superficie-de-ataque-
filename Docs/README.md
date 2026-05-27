@@ -25,23 +25,3 @@ Hardening assessment
 1. Unnecessary Services
 2. Uncontrolled Ports
 3. Excessive Privileged Users
-
-
-# Commands Used
-
-## Windows
-
-
-Get-Service,
-netstat,
-tasklist,
-net user
-
-
-## Linux
-
-
-systemctl,
-ss,
-cat,
-getent
