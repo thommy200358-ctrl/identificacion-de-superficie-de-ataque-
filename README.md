@@ -56,9 +56,6 @@ Command:
 Get-Service | Where-Object {$_.Status -eq "Running"}
 ```
 
-Screenshot:
-
-![Running Services](screenshots/windows/running-services.png)
 
 ---
 
@@ -70,9 +67,6 @@ Command:
 Get-Service | Where-Object {$_.StartType -eq "Automatic"}
 ```
 
-Screenshot:
-
-![Automatic Services](screenshots/windows/automatic-services.png)
 
 ---
 
@@ -84,9 +78,6 @@ Command:
 netstat -ano | findstr LISTENING
 ```
 
-Screenshot:
-
-![Listening Ports](screenshots/windows/listening-ports.png)
 
 ---
 
@@ -100,10 +91,6 @@ net user
 net localgroup administrators
 ```
 
-Screenshot:
-
-![Users](screenshots/windows/users-admins.png)
-
 ---
 
 # Linux Enumeration
@@ -114,8 +101,6 @@ Screenshot:
 systemctl list-units --type=service --state=running
 ```
 
-![Services](screenshots/linux/running-services.png)
-
 ---
 
 ## Startup Services
@@ -124,7 +109,6 @@ systemctl list-units --type=service --state=running
 systemctl list-unit-files --type=service | grep enabled
 ```
 
-![Enabled Services](screenshots/linux/enabled-services.png)
 
 ---
 
@@ -134,7 +118,6 @@ systemctl list-unit-files --type=service | grep enabled
 ss -tulnp
 ```
 
-![Ports](screenshots/linux/ports.png)
 
 ---
 
@@ -145,8 +128,6 @@ cat /etc/passwd
 
 getent group sudo
 ```
-
-![Users](screenshots/linux/sudo-users.png)
 
 ---
 
